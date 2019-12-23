@@ -82,6 +82,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p.text_pro {
+    font-size: 14px;
+}
+
 
 /* //Reset Code */
 
@@ -610,8 +614,6 @@ a.button-w3ls:hover {
 .banner-top2,
 .banner-top3 {
     min-height: 640px;
-    /* max-height: 800px; */
-    max-width: 50vw;
 }
 
 .banner-top1 {
@@ -744,7 +746,7 @@ p.text-title-sub {
     position: absolute;
     text-align: center;
     /* width: 100%; */
-    bottom: -20%;
+    bottom: 20%;
     animation: scale 4s linear infinite;
     left: 4%;
     right: 0;
@@ -1684,11 +1686,11 @@ h3.title-sub span {
     }
 }
 
-.bg-gray{
+.bg-gray {
     background-color: darkgray;
 }
 
-.bg- {
-    
-}
+.bg- {}
+
+
 /* //responsive */
