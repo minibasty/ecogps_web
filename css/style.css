@@ -1292,7 +1292,7 @@ h3.title-sub span {
         min-height: 640px;
     }
     .banner-top1 {
-        background: url(../img/vt900/vt9001.png) no-repeat bottom;
+        background: url(../img/vt900/1980/vt9001.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1300,7 +1300,7 @@ h3.title-sub span {
         -moz-background-size: cover;
     }
     .banner-top2 {
-        background: url(../img/vt900/vt9002.png) no-repeat bottom;
+        background: url(../img/vt900/1980/vt9002.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1308,7 +1308,7 @@ h3.title-sub span {
         -moz-background-size: cover;
     }
     .banner-top3 {
-        background: url(../img/vt900/vt9003.png) no-repeat bottom;
+        background: url(../img/vt900/1980/vt9003.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1328,7 +1328,7 @@ h3.title-sub span {
         min-height: 570px;
     }
     .banner-top1 {
-        background: url(../img/vt900/vt9001_1366.png) no-repeat bottom;
+        background: url(../img/vt900/1366/vt9001_1366.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1336,7 +1336,7 @@ h3.title-sub span {
         -moz-background-size: cover;
     }
     .banner-top2 {
-        background: url(../img/vt900/vt9002_1366.png) no-repeat bottom;
+        background: url(../img/vt900/1366/vt9001_1366.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1344,7 +1344,7 @@ h3.title-sub span {
         -moz-background-size: cover;
     }
     .banner-top3 {
-        background: url(../img/vt900/vt9003_1366.png) no-repeat bottom;
+        background: url(../img/vt900/1366/vt9001_1366.png) no-repeat bottom;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1692,6 +1692,11 @@ h3.title-sub span {
 }
 
 @media(max-width: 320px) {
+    .banner-top1,
+    .banner-top2,
+    .banner-top3 {
+        min-height: 230px;
+    }
     .top-w3layouts {
         max-width: 100%;
         text-align: center;
