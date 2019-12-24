@@ -657,7 +657,7 @@ p.w3ls-title-sub {
 }
 
 p.text-title {
-    margin-top: 70px;
+    margin-top: 200px;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
@@ -1536,6 +1536,20 @@ h3.title-sub span {
     .photo_res {
         background: url(../img/vt900/vt9002.png) no-repeat center;
     }
+    p.text-title {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: #333;
+    }
 }
 
 @media(max-width: 991px) {
@@ -1618,6 +1632,20 @@ h3.title-sub span {
     .banner-top2,
     .banner-top3 {
         min-height: 540px;
+    }
+    p.text-title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        color: #333;
     }
 }
 
@@ -1727,9 +1755,25 @@ h3.title-sub span {
         font-size: 26px;
         line-height: 30px;
     }
+    p.text-title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
 }
 
-@media(max-width: 440px) {}
+@media(max-width: 440px) {
+ 
+}
 
 @media(max-width: 414px) {
     .caption ul li a i {
@@ -1763,6 +1807,20 @@ h3.title-sub span {
     .wthree_banner_bottom_grid_right h4 a {
         font-size: 25px;
         letter-spacing: 0px;
+    }
+    p.text-title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: #333;
     }
 }
 
