@@ -104,6 +104,11 @@ a.move-top span {
     font-size: 30px;
 }
 
+p.font-head span {
+    color: #ff0000;
+}
+
+
 
 /* //bottom-to-top */
 
@@ -1391,6 +1396,20 @@ h3.title-sub span {
     .right-space {
         padding-right: 7em;
     }
+    p.text-title {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
 }
 
 @media(max-width: 1280px) {
@@ -1539,14 +1558,14 @@ h3.title-sub span {
     p.text-title {
         margin-top: 150px;
         text-align: center;
-        font-size: 40px;
+        font-size: 28px;
         font-weight: 600;
         color: #333;
     }
     
     p.text-title-sub {
         text-align: center;
-        font-size: 40px;
+        font-size: 28px;
         font-weight: 600;
         color: #333;
     }
@@ -1782,6 +1801,20 @@ h3.title-sub span {
         font-size: 13px;
         line-height: 2.4;
     }
+    p.text-title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
 }
 
 @media(max-width: 384px) {
@@ -1832,6 +1865,20 @@ h3.title-sub span {
         font-size: 24px;
         line-height: 28px;
         letter-spacing: 0px;
+    }
+    p.text-title {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
+    }
+    
+    p.text-title-sub {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #333;
     }
 }
 
